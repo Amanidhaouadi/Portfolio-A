@@ -51,8 +51,9 @@ const sr = ScrollReveal({
 //     reset: true
 });
 
-sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
-sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
-sr.reveal('.home__social-icon',{ interval: 200}); 
-sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
-sr.reveal('.work__title, .work__description', { interval: 200 });
+sr.reveal('.accueil__data, .Apropos__img, .Compétence__subtitle, .Compétence__text',{}); 
+sr.reveal('.accueil__img, .Apropos__subtitle, .Apropos__text, .Compétence__img',{delay: 400}); 
+sr.reveal('.accueil__social-icon',{ interval: 200}); 
+sr.reveal('.Compétence__data, .contact__input',{interval: 200}); 
+//sr.reveal('.work__img',{interval: 200}); 
+//sr.reveal('.work__title, .work__description', { interval: 200 });
